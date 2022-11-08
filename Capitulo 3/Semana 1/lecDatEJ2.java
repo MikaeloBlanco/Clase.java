@@ -1,4 +1,5 @@
-public class lecDatEJ2{//Calculadora de euros a pesetas. MiguelBlanco//
+//Calculadora de euros a pesetas. MiguelBlanco//
+public class lecDatEJ2{
   public static void main (String[] args){
 	String linea;
 		

@@ -1,4 +1,5 @@
-public class PruebaCodigo3{//Hora de introducir y operar numeros desde un String. MiguelBlanco//
+//Hora de introducir y operar numeros desde un String. MiguelBlanco//
+public class PruebaCodigo3{
   public static void main (String[] args){
 	String linea;
 		

@@ -1,4 +1,5 @@
-public class PruebaCodigo2{//Era hora de ir introduciendo nuevo codigo. Hora de introducir datos por teclado. MiguelBlanco//
+//Era hora de ir introduciendo nuevo codigo. Hora de introducir datos por teclado. MiguelBlanco//
+public class PruebaCodigo2{
   public static void main(String[] args){
 	String nombre;
 	String apellido;

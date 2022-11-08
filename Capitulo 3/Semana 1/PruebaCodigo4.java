@@ -1,4 +1,5 @@
-public class PruebaCodigo4{//Hora de introducir y operar numeros desde un String pero con decimales. MiguelBlanco//
+//Hora de introducir y operar numeros desde un String pero con decimales. MiguelBlanco//
+public class PruebaCodigo4{
   public static void main (String[] args){
 	String linea;
 		

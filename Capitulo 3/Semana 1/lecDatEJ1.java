@@ -1,4 +1,5 @@
-public class lecDatEJ1{//Multiplicación de dos numeros introducidos. MiguelBlanco//
+//Multiplicación de dos numeros introducidos. MiguelBlanco//
+public class lecDatEJ1{
   public static void main (String[] args){
 	String linea;
 		
