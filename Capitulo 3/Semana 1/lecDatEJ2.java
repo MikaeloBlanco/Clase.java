@@ -8,11 +8,11 @@ public class lecDatEJ2{
 		
 	System.out.print("Por favor, introduce un número de euros que desee convertir ");
 	linea = System.console().readLine();
-	double euro ;
-	euro = Double.parseDouble(linea);
+	int euro ;
+	euro = Integer.parseInt(linea);
 		
-	double total;
-	total = euro * peseta;
+	int total;
+	total = euro * (int)peseta;
 		
 	System.out.print("La cantidad de pesetas que obtiene de los euros introducidos es de " + total);
   } 
