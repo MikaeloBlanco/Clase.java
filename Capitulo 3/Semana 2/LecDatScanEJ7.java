@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-/*Este programa es de calcular el area de un triangulo.
+/*Este programa es de calcular el precio de un producto con iva.
 *
 * 
 * Miguel Blanco Fernandez
