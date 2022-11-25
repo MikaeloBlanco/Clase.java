@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /*
-* Este programa dice cual es la primera cifra de un número hasta un valor de 5 cifras en total.
+* Este programa dice cuantas cifras hay de un número hasta un valor de 5 cifras en total.
 *
 * MiguelBlanco
 */
