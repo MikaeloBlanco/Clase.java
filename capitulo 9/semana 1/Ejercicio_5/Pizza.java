@@ -1,0 +1,64 @@
+package Ejercicio_5;
+
+public class Pizza {
+    
+    private static int totalPedidas = 0;
+    
+    private static int totalServidas = 0;
+    
+    private String tamano;
+    
+    private String tipo;
+    
+    private String estado;
+    
+    public Pizza(String tipo, String tamano) {
+    
+        this.tamano = tamano;
+
+        this.tipo = tipo;
+    
+        this.estado = "pedida";
+    
+        Pizza.totalPedidas++;
+    
+    }
+    
+    public String toString() {
+    
+        return "pizza " + this.tipo + " " + this.tamano + ", " + this.estado;
+    
+    }
+    
+    public static int getTotalPedidas() {
+    
+        return Pizza.totalPedidas;
+    
+    }
+    
+    public static int getTotalServidas() {
+    
+        return Pizza.totalServidas;
+    
+    }
+    
+    public void sirve() {
+    
+        if (this.estado.equals("pedida")) {
+    
+            this.estado = "servida";
+    
+    
+            Pizza.totalServidas++;
+    
+        } else {
+    
+            System.out.println("esa pizza ya se ha servido");
+    
+        }
+
+    
+    }
+    
+}
+    
