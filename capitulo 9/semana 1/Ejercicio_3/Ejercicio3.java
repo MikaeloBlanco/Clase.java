@@ -1,21 +1,17 @@
 package Ejercicio_3;
 
-import Ejercicio_3.Animal.Sexo;
+import Ejercicio_3.Animal;
 
-public class Ejercicio3 {
+public class Ejercicio3 {   
+    public static void main(String[] args) {
 
-
-    public class PruebaAnimales {
-
-        public static void main(String[] args) {
-
-            Pinguino tux = new Pinguino(Sexo.MACHO);
+            Pinguino tux = new Pinguino(Animal.Sexo.MACHO);
 
             tux.come("palomitas");
 
             tux.programa();
 
-            Perro laika = new Perro(Sexo.HEMBRA);
+            Perro laika = new Perro(Animal.Sexo.HEMBRA);
 
             laika.duerme();
 
@@ -25,7 +21,7 @@ public class Ejercicio3 {
 
             laika.cuidaCrias();
 
-            Lagarto godzilla = new Lagarto(Sexo.MACHO);
+            Lagarto godzilla = new Lagarto(Animal.Sexo.MACHO);
 
             godzilla.tomaElSol();
 
@@ -33,7 +29,7 @@ public class Ejercicio3 {
 
             godzilla.lanzafuego();
 
-            Gato gordon = new Gato(Sexo.MACHO);
+            Gato gordon = new Gato(Animal.Sexo.MACHO);
 
             gordon.limpiate();
 
@@ -41,6 +37,5 @@ public class Ejercicio3 {
 
         }
 
-    }
 
 }

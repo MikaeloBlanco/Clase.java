@@ -1,4 +1,4 @@
-package Orientación_a_objetos;
+package Ejercicio_2;
 import java.util.Scanner;
 
 public class Ejercicio2POO {

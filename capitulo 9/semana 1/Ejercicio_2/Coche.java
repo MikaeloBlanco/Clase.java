@@ -1,4 +1,4 @@
-package Orientación_a_objetos;
+package Ejercicio_2;
 
 public class Coche extends Vehiculo{
 

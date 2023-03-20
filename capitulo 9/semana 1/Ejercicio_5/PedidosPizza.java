@@ -6,19 +6,19 @@ public class PedidosPizza {
     public static void main(String[] args) {
 
     Scanner s = new Scanner(System.in);   
-    String tamañoPizza;
+    String tamanoPizza;
     String tipoPizza;
     
 
     System.out.println("Introduce un tamaño de pizza(mediana o familiar): ");
     
-    tamañoPizza = s.next();
+    tamanoPizza = s.next();
 
     System.out.println("Introduce el tipo de pizza que desea(margarita, cuatro quesos o funghi): ");
 
     tipoPizza = s.next();
     
-    Pizza p1 = new Pizza(tamañoPizza, tipoPizza);
+    Pizza p1 = new Pizza(tamanoPizza, tipoPizza);
 
     Pizza p2 = new Pizza("cuatro quesos", "familiar");
 
