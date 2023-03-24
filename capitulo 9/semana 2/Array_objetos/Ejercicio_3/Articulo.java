@@ -8,7 +8,7 @@ public class Articulo {
     private int stock;
 
     public enum codigo{
-        DISPONIBLE, NO_DISPONIBLE
+        DISPONIBLE, NO_DISPONIBLE, EN_PROCESO, REPONIENDO
     }
 
     public void setCodigo(String c){
