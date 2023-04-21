@@ -11,7 +11,7 @@ import java.util.Scanner;
  */
 
 public class PruebaExcepciones {
-    public static void main(String[] args) throws FileNotFoundException{
+    public static void main(String[] args){
         //Variables
         int num1 = 0;
         int num2 = 0;
@@ -58,6 +58,11 @@ public class PruebaExcepciones {
                 }
                 break;
             case 4:
+                try {
+                    comunismo();
+                } catch (FileNotFoundException e) {
+                    e.printStackTrace();
+                }
                 break;
             case 5:
                 System.out.println("Trata de introducir mal un número entero");
@@ -76,7 +81,8 @@ public class PruebaExcepciones {
         }
 
     }
-    public static File comunismo() {
+    public static File comunismo() throws FileNotFoundException {
+        Scanner texto = new Scanner(new File("textoDeEjemplo.txt"));
         return comunismo();
     }
     public static int[] Array_largo(int dato) throws ArrayIndexOutOfBoundsException{
